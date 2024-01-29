@@ -3,7 +3,7 @@ Mihonyomi-extensions is a repo containing extension for **self-hosted servers**.
 
 This repository contains the compiled extensions (`.apk`) under the `releases` branch.
 > [!IMPORTANT]
-> The developer of Tachiyomi have ended it's development due to legal circonstances, forks like [Mihon](https://github.com/mihonapp/mihon) or [TachiyomiSY](https://github.com/jobobby04/TachiyomiSY) should still works as long as their code support tachiyomi extensions.
+> The developer of Tachiyomi have [ended it's development](https://tachiyomi.org/news/2024-01-13-goodbye) due to legal circonstances, forks like [Mihon](https://github.com/mihonapp/mihon) or [TachiyomiSY](https://github.com/jobobby04/TachiyomiSY) should still works as long as their code support tachiyomi extensions.
 
 ## What self-hosted servers do we support?
 * Komga : version-here
