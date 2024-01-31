@@ -10,7 +10,7 @@ This repository contains the compiled extensions (`.apk`) under the `releases` b
 
 ## Downloads
 > [!CAUTION]
-> Make sure you always know what you are installing and running. Do not install or run anything that looks suspicious. This project is open source, feel free to compile the extensions yourself.
+> Make sure you always know what you are installing and running. Do not install or run anything that looks suspicious. There has been a rise of closed-source extensions and fake tachiyomi compatible readers since tachiyomi announced ending developement. This project is open source, feel free to compile the extensions yourself.
 
 Soon.
 
@@ -42,4 +42,4 @@ Note that requesting something does not imply that something will be added or fi
 
 ## Disclaimer
 > [!NOTE]
-> The developer of this application does not have any affiliation with the content providers available. These extensions does not host any-content.
+> The developer of this application does not have any affiliation with the content providers available. These extensions are designed to work with user-hosted servers. The user is solely responsible for what is hosted on said server.
