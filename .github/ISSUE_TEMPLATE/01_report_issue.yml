@@ -1,5 +1,5 @@
 name: 🐞 Issue report
-description: Report a source issue in Tachiyomi
+description: Report a source issue in a extension
 labels: [Bug]
 body:
 
@@ -63,7 +63,7 @@ body:
       description: |
         You should be able to find your Tachiyomi compatible version in **More → About**.
       placeholder: |
-        Example: "0.15.1"
+        Example: "Mihon v0.16"
     validations:
       required: true
 
