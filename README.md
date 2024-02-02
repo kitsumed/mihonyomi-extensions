@@ -6,7 +6,9 @@ This repository contains the compiled extensions (`.apk`) under the `releases` b
 > The developer of Tachiyomi have [ended it's development](https://tachiyomi.org/news/2024-01-13-goodbye) due to legal circonstances, forks like [Mihon](https://github.com/mihonapp/mihon) or [TachiyomiSY](https://github.com/jobobby04/TachiyomiSY) should still works as long as their code support tachiyomi extensions.
 
 ## What self-hosted servers do we support?
-* Komga : version-here
+> [!NOTE]
+> Altrought this repo description claims to support multiples extensions, it was made for my own use with Komga. I probably won't be maintaining or adding by myself new extensions for self-hosting, however, I am open to pull requests to some extents. If you want a extension for Kivita, go check their [official extension](https://github.com/Kareadita/tachiyomi-extensions).
+* [Komga](https://github.com/kitsumed/mihonyomi-extensions/blob/main/src/all/komga/README.md)
 
 ## Downloads
 > [!CAUTION]
