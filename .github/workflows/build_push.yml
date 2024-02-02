@@ -138,13 +138,16 @@ jobs:
       - name: Create releases artifacts
         run: |
           cd main
+          chmod +x ./.github/scripts/move-apks.sh
           ./.github/scripts/move-apks.sh
           INSPECTOR_LINK="$(curl -s "https://api.github.com/repos/tachiyomiorg/tachiyomi-extensions-inspector/releases/latest" | jq -r '.assets[0].browser_download_url')"
           curl -L "$INSPECTOR_LINK" -o ./Inspector.jar
           java -jar ./Inspector.jar "apk" "output.json" "tmp"
+          chmod +x ./.github/scripts/create-repo.sh
           ./.github/scripts/create-repo.sh
 
       - name: Deploy repo releases
         run: |
           cd releases
+          chmod +x ../main/.github/scripts/commit-repo.sh
           ../main/.github/scripts/commit-repo.sh
