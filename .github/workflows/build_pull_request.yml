@@ -35,6 +35,9 @@ jobs:
           java-version: 11
           distribution: adopt
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - id: get-changed-files
         name: Get changed files
         uses: Ana06/get-changed-files@v2.2.0
