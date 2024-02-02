@@ -3,12 +3,12 @@ set -e
 
 TOOLS="$(ls -d ${ANDROID_HOME}/build-tools/* | tail -1)"
 
-mkdir -p repo/apk
-mkdir -p repo/icon
+mkdir -p releases/apk
+mkdir -p releases/icon
 
-cp -f apk/* repo/apk
+cp -f apk/* releases/apk
 
-cd repo
+cd releases
 
 APKS=( ../apk/*".apk" )
 
