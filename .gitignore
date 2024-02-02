@@ -1,6 +1,15 @@
 .gradle
-**/build/
-!src/**/build/
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+build/
+/captures
+.idea/
+*.iml
+repo/
+apk/
+gen
+generated-src/
 
 # Ignore Gradle GUI config
 gradle-app.setting
