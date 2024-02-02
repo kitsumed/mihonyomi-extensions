@@ -43,6 +43,7 @@ jobs:
       - name: Get number of modules
         run: |
           set -x
+          chmod +x ./gradlew
           ./gradlew -q projects | grep '.*extensions\:\(individual\)\:.*\:.*' > projects.txt
 
           echo "NUM_INDIVIDUAL_MODULES=$(cat projects.txt | grep '.*\:individual\:.*' | wc -l)" >> $GITHUB_ENV
