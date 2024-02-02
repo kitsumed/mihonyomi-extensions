@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mihonyomi Extension: Komga",
+    "pkg": "eu.kanade.tachiyomi.extension.all.komga",
+    "apk": "tachiyomi-all.komga-v1.4.51.apk",
+    "lang": "all",
+    "code": 51,
+    "version": "1.4.51",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Komga",
+        "lang": "all",
+        "id": "4508733312114627536",
+        "baseUrl": "",
+        "versionId": 1,
+        "hasCloudflare": 0
+      },
+      {
+        "name": "Komga (2)",
+        "lang": "all",
+        "id": "8074481155021144106",
+        "baseUrl": "",
+        "versionId": 1,
+        "hasCloudflare": 0
+      },
+      {
+        "name": "Komga (3)",
+        "lang": "all",
+        "id": "5132811728275817394",
+        "baseUrl": "",
+        "versionId": 1,
+        "hasCloudflare": 0
+      }
+    ]
+  }
+]
