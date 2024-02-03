@@ -1,7 +1,7 @@
 # Mihonyomi Extensions
 Mihonyomi-extensions is a repo containing extension for **self-hosted servers**. It support the free and open source manga reader [Tachiyomi](https://github.com/tachiyomiorg/extensions) and any of it's fork who __kept support__ like [Mihon](https://github.com/mihonapp/mihon).
 
-This repository contains the compiled extensions (`.apk`) under the `releases` branch.
+This repository contains the compiled extensions (`.apk`) under the `releases` branch. Current release code is available on the `main` branch and unreleased (not yet compiled) code is available on the `dev-main` branch.
 > [!IMPORTANT]
 > The developer of Tachiyomi have [ended it's development](https://tachiyomi.org/news/2024-01-13-goodbye) due to legal circonstances, forks like [Mihon](https://github.com/mihonapp/mihon) or [TachiyomiSY](https://github.com/jobobby04/TachiyomiSY) should still works as long as their code support tachiyomi extensions.
 
@@ -11,10 +11,14 @@ This repository contains the compiled extensions (`.apk`) under the `releases` b
 * [Komga](https://github.com/kitsumed/mihonyomi-extensions/blob/main/src/all/komga/README.md)
 
 ## Downloads
+[![CI build push](https://github.com/kitsumed/mihonyomi-extensions/actions/workflows/build_push.yml/badge.svg?event=push)](https://github.com/kitsumed/mihonyomi-extensions/actions/workflows/build_push.yml)
 > [!CAUTION]
 > Make sure you always know what you are installing and running. Do not install or run anything that looks suspicious. There has been a rise of closed-source extensions and fake tachiyomi compatible readers since tachiyomi announced ending developement. This project is open source, feel free to compile the extensions yourself.
+#### Option 1
+You can add the Mihonyomi list manually by pasting `https://raw.githubusercontent.com/kitsumed/mihonyomi-extensions/releases/index.min.json` in the corresponding section of your application.
 
-Soon.
+#### Option 2
+You can install the apks files manually from the releases branch.
 
 # Requests
 
