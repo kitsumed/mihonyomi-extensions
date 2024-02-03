@@ -1,7 +1,7 @@
 # Mihonyomi Extensions
 Mihonyomi-extensions is a repo containing extension for **self-hosted servers**. It support the free and open source manga reader [Tachiyomi](https://github.com/tachiyomiorg/extensions) and any of it's fork who __kept support__ like [Mihon](https://github.com/mihonapp/mihon).
 
-This repository contains the compiled extensions (`.apk`) under the `releases` branch. Current release code is available on the `main` branch and unreleased (not yet compiled) code is available on the `dev-main` branch.
+This repository contains the compiled extensions (`.apk`) under the `releases` branch. Current release code is available on the `main` branch and unreleased (not yet compiled) code is available on others branch.
 > [!IMPORTANT]
 > The developer of Tachiyomi have [ended it's development](https://tachiyomi.org/news/2024-01-13-goodbye) due to legal circonstances, forks like [Mihon](https://github.com/mihonapp/mihon) or [TachiyomiSY](https://github.com/jobobby04/TachiyomiSY) should still works as long as their code support tachiyomi extensions.
 
