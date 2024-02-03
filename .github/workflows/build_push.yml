@@ -149,6 +149,5 @@ jobs:
       - name: Deploy repo releases
         run: |
           cd releases
-          cp ../main/releases-config.json repo.json
           chmod +x ../main/.github/scripts/commit-repo.sh
           ../main/.github/scripts/commit-repo.sh
