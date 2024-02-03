@@ -66,7 +66,6 @@ ls /releases/
 echo --------
 ls /main/
 
-
 # Create repo.json file from releases-config.json
 #cp -f ../main/releases-config.json ./repo.json 
 
