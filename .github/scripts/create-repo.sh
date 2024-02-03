@@ -64,10 +64,10 @@ tree ./
 echo --------
 ls /home/runner/
 echo --------
-ls ../releases
+ls $GITHUB_WORKSPACE
 echo --------
+ls $GITHUB_WORKSPACE/../main
 echo --------
-ls ../main
 
 # Create repo.json file from releases-config.json
 #cp -f ../main/releases-config.json ./repo.json 
