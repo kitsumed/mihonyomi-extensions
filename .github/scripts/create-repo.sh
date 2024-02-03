@@ -59,18 +59,7 @@ done | jq -sr '[.[]]' > index.json
 # Alternate minified copy
 jq -c '.' < index.json > index.min.json
 
-#TMP PRINT OUT TREE IN CONSOLE FOR DEBUGGING (WELP)
-tree ./
-echo --------
-ls /home/runner/
-echo --------
-ls $GITHUB_WORKSPACE
-echo --------
-ls $GITHUB_WORKSPACE/../main
-echo --------
-
-
 # Create repo.json file from releases-config.json
-#cp -f ../main/releases-config.json ./repo.json 
+cp -f $GITHUB_WORKSPACE/main/releases-config.json $GITHUB_WORKSPACE/main/repo.json 
 
 cat index.json
