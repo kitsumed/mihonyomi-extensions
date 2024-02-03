@@ -69,7 +69,6 @@ echo --------
 ls $GITHUB_WORKSPACE/../main
 echo --------
 
-
 # Create repo.json file from releases-config.json
 #cp -f ../main/releases-config.json ./repo.json 
 
