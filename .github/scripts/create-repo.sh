@@ -60,6 +60,6 @@ done | jq -sr '[.[]]' > index.json
 jq -c '.' < index.json > index.min.json
 
 # Create repo.json file from releases-config.json
-cp -f $GITHUB_WORKSPACE/main/releases-config.json $GITHUB_WORKSPACE/releases/repo.json 
+cp -f $GITHUB_WORKSPACE/main/releases-config.json repo.json 
 
 cat index.json
