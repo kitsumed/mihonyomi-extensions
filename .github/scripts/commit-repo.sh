@@ -7,7 +7,7 @@ git config --global user.name "github-actions[bot]"
 git status
 if [ -n "$(git status --porcelain)" ]; then
     git add .
-    git commit -m "Update extensions branch"
+    git commit -m "Update extensions releases branch"
     git push
 
     # Purge cached index on jsDelivr

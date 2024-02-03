@@ -59,4 +59,6 @@ done | jq -sr '[.[]]' > index.json
 # Alternate minified copy
 jq -c '.' < index.json > index.min.json
 
+cp -f main/releases-config.json releases/repo.json 
+
 cat index.json
