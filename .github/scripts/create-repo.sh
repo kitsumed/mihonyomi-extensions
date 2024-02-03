@@ -60,11 +60,11 @@ done | jq -sr '[.[]]' > index.json
 jq -c '.' < index.json > index.min.json
 
 #TMP PRINT OUT TREE IN CONSOLE FOR DEBUGGING (WELP)
-tree -d ./
+tree ./
 echo --------
-tree -d releases/
+ls /releases/
 echo --------
-tree -d main/
+ls /main/
 
 
 # Create repo.json file from releases-config.json
