@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Mihonyomi Extensions",
-    "displayName": "Mihonyomi",
+    "shortName": "Mihonyomi",
     "website": "https://github.com/kitsumed/mihonyomi-extensions",
     "signingKeyFingerprint": "3ca8159ccd33c704eff9de5f5841516a18e21ccec5a99c6c2b7b4d55014c81f3"
   }
