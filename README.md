@@ -26,6 +26,8 @@ To request a new extension, feature or bug fix, [create an issue](NULL_LINK/issu
 
 Note that requesting something does not imply that something will be added or fixed. Furthermore, some extensions may be impossible to do or prohibitively difficult to maintain due to bad or missing API documentation.
 
+I won't do / accepts extensions if they aren't self-hosted by the user and require scrapping instead of the use of a API. I might always refuse even if these criteria are met.
+
 > [!TIP]
 > If you would like to see a request fulfilled and have the necessary skills to do so, consider contributing!
 
